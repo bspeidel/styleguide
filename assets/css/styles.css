@@ -92,7 +92,10 @@ html, body {
   color: #007FA3;
   margin: 0;
 }
-.mdl-smit .mdl-card__actions a:hover {
+.mdl-smit .mdl-card__actions a:hover,
+.mdl-smit .mdl-card__actions a:active,
+.mdl-smit .mdl-card__actions a:focus,
+.mdl-smit .mdl-card__actions a:visited {
   color: #007FA3 !important;
   background-color: #e5f2f6 !important;
 }
