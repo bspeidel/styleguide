@@ -4,6 +4,10 @@ html, body {
   margin: 0;
   padding: 0;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
 .mdl-smit .title {
   margin-bottom: 2px;
 }
@@ -65,7 +69,16 @@ html, body {
   padding: 0;
   color: inherit;
 }
-.mdl-smit.mdl-smit .mdl-card__supporting-text h4 {
+.mdl-smit .mdl-card .mdl-card__goal-text {
+  margin: 24px 11px;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0;
+  color: inherit;
+}
+.mdl-smit.mdl-smit .mdl-card__supporting-text h4,
+.mdl-smit.mdl-smit .mdl-card__goal-text h4 {
   margin-top: 0;
   margin-bottom: 20px;
 }
