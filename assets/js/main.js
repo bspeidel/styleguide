@@ -6,3 +6,19 @@ function toggleSection(section) {
     x.style.display = "none";
   }
 }
+
+function initDialog(element) {
+  'use strict';
+  var dialogButton = document.querySelector('.' + element + '-button');
+  var dialog = document.querySelector('#' + element + '');
+  if (! dialog.showModal) {
+    dialogPolyfill.registerDialog(dialog);
+  }
+  dialogButton.addEventListener('click', function() {
+     dialog.showModal();
+  });
+  dialog.querySelector('button:not([disabled])')
+  .addEventListener('click', function() {
+    dialog.close();
+  });
+}
