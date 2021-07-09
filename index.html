@@ -42,7 +42,7 @@
     }
     </style>
   </head>
-  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+  <body class="mdl-smit mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
@@ -50,13 +50,13 @@
         </div>
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
           <img src="assets/images/smartinsurtech.svg" width="160px" alt="smit-logo">
-          <h3>Styleguide</h3>
+          <h3 class="title">Styleguide</h3>
         </div>
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
         </div>
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
-          <a href="#templates" class="mdl-layout__tab">Templates</a>
+          <a href="#overview" class="mdl-layout__tab is-active">Allgemein</a>
+          <a href="#templates" class="mdl-layout__tab">UI Design</a>
           <a href="#showcase" class="mdl-layout__tab">Showcase</a>
         </div>
       </header>
@@ -67,37 +67,37 @@
               <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
                 <h3 class="mdl-cell mdl-cell--12-col">Prinzipien</h3>
                 <div class="section-principles mdl-grid">
-                  <div class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--hide-phone">
                     <img src="assets/images/undraw_teaching_f1cm.svg" width="125" alt="Leicht zu erlerne">
                   </div>
-                  <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--4-col-tablet mdl-cell--3-col-phone">
                     <h4>Leicht zu erlernen</h4>
                     Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis.
                   </div>
                 </div>
                 <div class="section-principles mdl-grid">
-                  <div class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--hide-phone">
                     <img src="assets/images/2.svg" width="125" alt="Intuitiv zu benutzen">
                   </div>
-                  <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--4-col-tablet mdl-cell--3-col-phone">
                     <h4>Intuitiv zu benutzen</h4>
                     Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis.
                   </div>
                 </div>
                 <div class="section-principles mdl-grid">
-                  <div class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--hide-phone">
                     <img src="assets/images/3.svg" width="125" alt="Geringe Fehlerrate">
                   </div>
-                  <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--4-col-tablet mdl-cell--3-col-phone">
                     <h4>Geringe Fehlerrate</h4>
                     Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis.
                   </div>
                 </div>
                 <div class="section-principles mdl-grid">
-                  <div class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--1-col-phone">
-                    <img src="assets/images/4.svg" width="125" alt="Zufriedenheit sicherstellen">
+                  <div class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--hide-phone">
+                    <img src="assets/images/undraw_feeling_happy_jymo.svg" width="120" alt="Zufriedenheit sicherstellen">
                   </div>
-                  <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone" style="border: none;">
+                  <div class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--4-col-tablet mdl-cell--3-col-phone" style="border: none;">
                     <h4>Zufriedenheit sicherstellen</h4>
                     Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud qui.
                   </div>
@@ -105,81 +105,58 @@
               </div>
             </div>
           </section>
+        </div>
+        <div class="mdl-layout__tab-panel" id="templates">
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-                <h3 class="mdl-cell mdl-cell--12-col">Technik</h3>
-                    Wir empfehlen Angular mit dem Paket von Material Angular zu nutzen.
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--primary-light mdl-color-text--white">
+              <img src="assets/images/undraw_color_palette_yamk.svg" width="200" alt="">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h3>Farben</h3>
+                Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
+              </div>
+              <div id="colors" class="mdl-card__supporting-text" style="display: none;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur consequatur quia est iste aperiam non neque culpa dolores facere. Inventore iure repudiandae reiciendis odio a quis, reprehenderit amet totam!
+              </div>
+              <div class="mdl-card__actions">
+                <a href="#" onclick="toggleSection('colors')" class="mdl-button">mehr erfahren</a>
               </div>
             </div>
           </section>
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--primary mdl-color-text--white">
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--primary-light mdl-color-text--white">
+              <img src="assets/images/undraw_font_kwpk.svg" width="200" alt="">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h3>Typography</h3>
+                <strong>IBM Plex Sans</strong><br> 
+                Die Schrift ist unter folgender URL verfügbar: <a href="https://fonts.google.com/specimen/IBM+Plex+Sans">Link zu googlefonts</a>
+              </div>
+              <div id="fonts" class="mdl-card__supporting-text" style="display: none;">
+                <img src="assets/images/IBM Plex.svg" alt="typo">
+              </div>
+              <div class="mdl-card__actions">
+                <a href="#" onclick="toggleSection('fonts')" class="mdl-button">mehr erfahren</a>
+              </div>
+            </div>
+          </section>
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--primary-light mdl-color-text--white">
               <img src="assets/images/undraw_upgrade_06a0.svg" width="200" alt="">
             </header>
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text">
-                <h3>Features</h3>
+                <h3>Technik</h3>
                 Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
               </div>
-              <div class="mdl-card__actions">
-                <a href="#" class="mdl-button">Read our features</a>
+              <div id="features" class="mdl-card__supporting-text" style="display: none;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur consequatur quia est iste aperiam non neque culpa dolores facere. Inventore iure repudiandae reiciendis odio a quis, reprehenderit amet totam!
               </div>
-            </div>
-          </section>
-        </div>
-        <div class="mdl-layout__tab-panel" id="templates">
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
-              <h4>Templates</h4>
-              Minim duis incididunt est cillum est ex occaecat consectetur. Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
-              <ul class="toc">
-                <h4>Contents</h4>
-                <a href="#lorem1">Lorem ipsum</a>
-                <a href="#lorem2">Lorem ipsum</a>
-                <a href="#lorem3">Lorem ipsum</a>
-                <a href="#lorem4">Lorem ipsum</a>
-                <a href="#lorem5">Lorem ipsum</a>
-              </ul>
-
-              <h5 id="lorem1">Lorem ipsum dolor sit amet</h5>
-              Excepteur et pariatur officia veniam anim culpa cupidatat consequat ad velit culpa est non.
-              <ul>
-                <li>Nisi qui nisi duis commodo duis reprehenderit consequat velit aliquip.</li>
-                <li>Dolor consectetur incididunt in ipsum laborum non et irure pariatur excepteur anim occaecat officia sint.</li>
-                <li>Lorem labore proident officia excepteur do.</li>
-              </ul>
-
-              <p>
-                Sit qui est voluptate proident minim cillum in aliquip cupidatat labore pariatur id tempor id. Proident occaecat occaecat sint mollit tempor duis dolor cillum anim. Dolore sunt ea mollit fugiat in aliqua consequat nostrud aliqua ut irure in dolore. Proident aliqua culpa sint sint exercitation. Non proident occaecat reprehenderit veniam et proident dolor id culpa ea tempor do dolor. Nulla adipisicing qui fugiat id dolor. Nostrud magna voluptate irure veniam veniam labore ipsum deserunt adipisicing laboris amet eu irure. Sunt dolore nisi velit sit id. Nostrud voluptate labore proident cupidatat enim amet Lorem officia magna excepteur occaecat eu qui. Exercitation culpa deserunt non et tempor et non.
-              </p>
-              <p>
-                Do dolor eiusmod eu mollit dolore nostrud deserunt cillum irure esse sint irure fugiat exercitation. Magna sit voluptate id in tempor elit veniam enim cupidatat ea labore elit. Aliqua pariatur eu nulla labore magna dolore mollit occaecat sint commodo culpa. Eu non minim duis pariatur Lorem quis exercitation. Sunt qui ex incididunt sit anim incididunt sit elit ad officia id.
-              </p>
-              <p id="lorem2">
-                Tempor voluptate ex consequat fugiat aliqua. Do sit et reprehenderit culpa deserunt culpa. Excepteur quis minim mollit irure nulla excepteur enim quis in laborum. Aliqua elit voluptate ad deserunt nulla reprehenderit adipisicing sint. Est in eiusmod exercitation esse commodo. Ea reprehenderit exercitation veniam adipisicing minim nostrud. Veniam dolore ex ea occaecat non enim minim id ut aliqua adipisicing ad. Occaecat excepteur aliqua tempor cupidatat aute dolore deserunt ipsum qui incididunt aliqua occaecat sit quis. Culpa sint aliqua aliqua reprehenderit veniam irure fugiat ea ad.
-              </p>
-              <p>
-                Eu minim fugiat laborum irure veniam Lorem aliqua enim. Aliqua veniam incididunt consequat irure consequat tempor do nisi deserunt. Elit dolore ad quis consectetur sint laborum anim magna do nostrud amet. Ea nulla sit consequat quis qui irure dolor. Sint deserunt excepteur consectetur magna irure. Dolor tempor exercitation dolore pariatur incididunt ut laboris fugiat ipsum sunt veniam aute sunt labore. Non dolore sit nostrud eu ad excepteur cillum eu ex Lorem duis.
-              </p>
-              <p>
-                Id occaecat velit non ipsum occaecat aliqua quis ut. Eiusmod est magna non esse est ex incididunt aute ullamco. Cillum excepteur sint ipsum qui quis velit incididunt amet. Qui deserunt anim enim laborum cillum reprehenderit duis mollit amet ad officia enim. Minim sint et quis aliqua aliqua do minim officia dolor deserunt ipsum laboris. Nulla nisi voluptate consectetur est voluptate et amet. Occaecat ut quis adipisicing ad enim. Magna est magna sit duis proident veniam reprehenderit fugiat reprehenderit enim velit ex. Ullamco laboris culpa irure aliquip ad Lorem consequat veniam ad ipsum eu. Ipsum culpa dolore sunt officia laborum quis.
-              </p>
-
-              <h5 id="lorem3">Lorem ipsum dolor sit amet</h5>
-
-              <p id="lorem4">
-                Eiusmod nulla aliquip ipsum reprehenderit nostrud non excepteur mollit amet esse est est dolor. Dolore quis pariatur sit consectetur veniam esse ullamco duis Lorem qui enim ut veniam. Officia deserunt minim duis laborum dolor in velit pariatur commodo ullamco eu. Aute adipisicing ad duis labore laboris do mollit dolor cillum sunt aliqua ullamco. Esse tempor quis cillum consequat reprehenderit. Adipisicing proident anim eu sint elit aliqua anim dolore cupidatat fugiat aliquip qui.
-              </p>
-              <p id="lorem5">
-                Nisi eiusmod esse cupidatat excepteur exercitation ipsum reprehenderit nostrud deserunt aliqua ullamco. Anim est irure commodo eiusmod pariatur officia. Est dolor ipsum excepteur magna aliqua ad veniam irure qui occaecat eiusmod aute fugiat commodo. Quis mollit incididunt amet sit minim velit eu fugiat voluptate excepteur. Sit minim id pariatur ex cupidatat cupidatat nostrud nostrud ipsum.
-              </p>
-              <p>
-                Enim ea officia excepteur ad veniam id reprehenderit eiusmod esse mollit consequat. Esse non aute ullamco Lorem aliqua qui dolore irure eiusmod aute aliqua proident labore aliqua. Ipsum voluptate voluptate exercitation laborum deserunt nulla elit aliquip et minim ex veniam. Duis cupidatat aute sunt officia mollit dolor ad elit ad aute labore nostrud duis pariatur. In est sint voluptate consectetur velit ea non labore. Ut duis ea aliqua consequat nulla laboris fugiat aute id culpa proident. Minim eiusmod laboris enim Lorem nisi excepteur mollit voluptate enim labore reprehenderit officia mollit.
-              </p>
-              <p>
-                Cupidatat labore nisi ut sunt voluptate quis sunt qui ad Lorem esse nisi. Ex esse velit ullamco incididunt occaecat dolore veniam tempor minim adipisicing amet. Consequat in exercitation est elit anim consequat cillum sint labore cillum. Aliquip mollit laboris ad labore anim.
-              </p>
+              <div class="mdl-card__actions">
+                <a href="#" onclick="toggleSection('features')" class="mdl-button">mehr erfahren</a>
+              </div>
             </div>
           </section>
         </div>
@@ -241,5 +218,6 @@
       </main>
     </div>
     <script src="assets/js/material.min.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
