@@ -80,11 +80,11 @@ header .responsive {
   color: inherit;
 }
 .mdl-smit .mdl-card .mdl-card__goal-text {
-  margin: 24px 11px;
+  margin: 24px 0;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  padding: 0;
+  padding: 0 8px;
   color: inherit;
 }
 .mdl-smit.mdl-smit .mdl-card__supporting-text h4,
