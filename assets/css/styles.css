@@ -4,20 +4,6 @@ html, body {
   margin: 0;
   padding: 0;
 }
-header .responsive {
-  width: 90%;
-  height: auto;
-}
-.responsive {
-  width: 100%;
-  height: auto;
-}
-.no-padding {
-  padding: 0;
-}
-.no-margin {
-  margin: 0;
-}
 .mdl-smit .title {
   margin-bottom: 2px;
 }
@@ -39,6 +25,11 @@ header .responsive {
 }
 .mdl-smit .mdl-layout__tab-bar-container {
   height: 64px;
+}
+.mdl-smit .mdl-layout__header-img {
+  width: 400px; 
+  margin-left: 260px; 
+  margin-top: 165px;
 }
 .mdl-smit .mdl-layout__tab-bar {
   padding: 0;
@@ -71,37 +62,56 @@ header .responsive {
 .mdl-smit .mdl-card > * {
   height: auto;
 }
+.mdl-smit .mdl-card__body {
+  width: calc(100% - 16px); 
+  margin: 8px !important;
+}
+.mdl-smit .mdl-card__header {
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+.mdl_smit .mdl-card__img {
+  width: 100%;
+  height: auto;
+  padding: 8px;
+}
 .mdl-smit .mdl-card .mdl-card__supporting-text {
   margin: 24px 0;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   padding: 0;
+  letter-spacing: 0.25px;
   color: inherit;
 }
+
 .mdl-smit .mdl-card .mdl-card__goal-text {
-  margin: 24px 0;
+  margin: 24px 0 32px 0;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   padding: 0;
   color: inherit;
 }
+
 .mdl-smit.mdl-smit .mdl-card__supporting-text h4,
 .mdl-smit.mdl-smit .mdl-card__goal-text h4 {
   margin-top: 0;
   margin-bottom: 20px;
 }
+
 .mdl-smit .mdl-card__actions {
   margin: 0;
-  padding: 4px 10px;
+  padding: 8px;
   text-align: right;
   color: inherit;
 }
+
 .mdl-smit .mdl-card__actions a {
   color: #007FA3;
   margin: 0;
 }
+
 .mdl-smit .mdl-card__actions a:hover,
 .mdl-smit .mdl-card__actions a:active,
 .mdl-smit .mdl-card__actions a:focus,
@@ -109,14 +119,17 @@ header .responsive {
   color: #007FA3 !important;
   background-color: #e5f2f6 !important;
 }
+
 .mdl-smit .mdl-card__actions a:hover,
 .mdl-smit .mdl-card__actions a:active {
   color: inherit;
   background-color: transparent;
 }
+
 .mdl-smit .mdl-card__supporting-text + .mdl-card__actions {
   border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
+
 .mdl-smit #add {
   position: absolute;
   right: 40px;
@@ -128,12 +141,15 @@ header .responsive {
   position: relative;
   margin-bottom: 48px;
 }
+
 .mdl-smit section.section--center {
   max-width: 992px;
 }
+
 .mdl-smit #features section.section--center {
   max-width: 620px;
 }
+
 .mdl-smit section > header{
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -145,18 +161,22 @@ header .responsive {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
 .mdl-smit section > .section__play-btn {
   min-height: 200px;
 }
+
 .mdl-smit section > header > .material-icons {
   font-size: 3rem;
 }
+
 .mdl-smit section > button {
   position: absolute;
   z-index: 99;
   top: 8px;
   right: 8px;
 }
+
 .mdl-smit section .section__circle {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -174,6 +194,7 @@ header .responsive {
       -ms-flex-negative: 1;
           flex-shrink: 1;
 }
+
 .mdl-smit section .section__text {
   margin-left: 4px;
   padding-bottom: 24px;
@@ -184,51 +205,65 @@ header .responsive {
       -ms-flex-negative: 0;
           flex-shrink: 0;
 }
+
 .mdl-smit section .section__text h5 {
   font-size: inherit;
   margin: 0;
   margin-bottom: 0.5em;
 }
+
 .mdl-smit section .section__text a {
   text-decoration: none;
 }
+
 .mdl-smit section .section__circle-container > .section__circle-container__circle {
   width: 64px;
   height: 64px;
   border-radius: 32px;
   margin: 8px 0;
 }
+
 .mdl-smit section.section--footer .section__circle--big {
   width: 100px;
   height: 100px;
   border-radius: 50px;
   margin: 8px 32px;
 }
+
 .mdl-smit .is-small-screen section.section--footer .section__circle--big {
   width: 50px;
   height: 50px;
   border-radius: 25px;
   margin: 8px 16px;
 }
+
 .mdl-smit section.section--footer {
   padding: 64px 0;
   margin: 0 -8px -8px -8px;
 }
+
 .mdl-smit section.section--center .section__text {
   border-bottom: 1px solid rgba(0,0,0,.13);
+  padding-bottom: 8px;
 }
+
 .mdl-smit .mdl-card .mdl-card__supporting-text > h3:first-child {
   margin-bottom: 24px;
+  margin-top: 16px;
 }
+
 .mdl-smit .mdl-layout__tab-panel#showcase {
   background-color: white;
 }
+
 .mdl-smit #features section {
   margin-bottom: 72px;
 }
+
 .mdl-smit #features h4, #features h5 {
   margin-bottom: 16px;
 }
+
 .mdl-smit .toc {
   border-left: 4px solid #007FA3;
   margin: 24px;
@@ -241,10 +276,13 @@ header .responsive {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
 .mdl-smit .toc h4 {
   font-size: 0.9rem;
   margin-top: 0;
+  margin-bottom: 8px;
 }
+
 .mdl-smit .toc a {
   color: #007FA3;
   text-decoration: none;
@@ -252,19 +290,26 @@ header .responsive {
   line-height: 28px;
   display: block;
 }
+
 .mdl-smit .mdl-menu__container {
   z-index: 99;
 }
+
 .mdl-dialog {
+  padding: 8px 8px 0px 8px;
   border: none;
   box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
-  width: 992px; }
+  width: 992px;
+}
+
 .mdl-dialog__title {
-  padding: 24px 0;
+  padding: 0 0 24px 0;
   margin: 0;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+}
+
 .mdl-dialog__actions {
-  padding: 8px 8px 8px 24px;
+  padding: 8px 0;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -273,14 +318,22 @@ header .responsive {
           flex-direction: row-reverse;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+          flex-wrap: wrap; 
+}
+
 .mdl-dialog__actions > * {
   margin-right: 8px;
-  height: 36px; }
+  height: 36px; 
+}
+
 .mdl-dialog__actions > *:first-child {
-  margin-right: 0; }
+  margin-right: 0; 
+}
+
 .mdl-dialog__actions--full-width {
-  padding: 0 0 8px 0; }
+  padding: 0 0 8px 0; 
+}
+
 .mdl-dialog__actions--full-width > * {
   height: 48px;
   -webkit-flex: 0 0 100%;
@@ -288,7 +341,10 @@ header .responsive {
           flex: 0 0 100%;
   padding-right: 16px;
   margin-right: 0;
-  text-align: right; }
+  text-align: right; 
+}
+
 .mdl-dialog__content {
   padding: 0;
-  color: rgba(0,0,0, 0.74); }
+  color: #333; 
+}
