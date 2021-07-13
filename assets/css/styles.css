@@ -4,33 +4,42 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
 .mdl-smit .title {
   margin-bottom: 2px;
 }
+
 .mdl-smit .mdl-layout__header-row {
   padding-left: 40px;
 }
+
 .mdl-smit .mdl-layout.is-small-screen .mdl-layout__header-row h3 {
   font-size: inherit;
 }
+
 .mdl-smit .mdl-layout__tab-bar-button {
   display: none;
 }
+
 .mdl-smit .mdl-layout.is-small-screen .mdl-layout__tab-bar .mdl-button {
   display: none;
 }
+
 .mdl-smit .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar,
 .mdl-smit .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar-container {
   overflow: visible;
 }
+
 .mdl-smit .mdl-layout__tab-bar-container {
   height: 64px;
 }
+
 .mdl-smit .mdl-layout__header-img {
   width: 400px; 
   margin-left: 260px; 
   margin-top: 165px;
 }
+
 .mdl-smit .mdl-layout__tab-bar {
   padding: 0;
   padding-left: 16px;
@@ -38,18 +47,22 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
 .mdl-smit .mdl-layout__tab-bar .mdl-layout__tab {
   height: 64px;
   line-height: 64px;
 }
+
 .mdl-smit .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
   background-color: white;
   height: 4px;
 }
+
 .mdl-smit main > .mdl-layout__tab-panel {
   padding: 8px;
   padding-top: 48px;
 }
+
 .mdl-smit .mdl-card {
   height: auto;
   display: -webkit-flex;
@@ -59,22 +72,27 @@ html, body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
 .mdl-smit .mdl-card > * {
   height: auto;
 }
+
 .mdl-smit .mdl-card__body {
   width: calc(100% - 16px); 
   margin: 8px !important;
 }
+
 .mdl-smit .mdl-card__header {
   margin-top: 24px;
   margin-bottom: 0;
 }
+
 .mdl-smit .mdl-card__img {
-  width: 100%;
+  width: 90%;
   height: auto;
   padding: 8px;
 }
+
 .mdl-smit .mdl-card .mdl-card__supporting-text {
   margin: 24px 0;
   -webkit-flex-grow: 1;
@@ -86,7 +104,7 @@ html, body {
 }
 
 .mdl-smit .mdl-card .mdl-card__goal-text {
-  margin: 24px 0 32px 0;
+  margin: 24px 0;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
