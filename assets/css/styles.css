@@ -100,6 +100,10 @@ body {
   height: auto;
 }
 
+.mdl-smit .mdl-card__showcase {
+  height: auto;
+}
+
 .mdl-smit .mdl-card .mdl-card__supporting-text {
   margin: 24px 0;
   -webkit-flex-grow: 1;
@@ -373,4 +377,18 @@ body {
 .mdl-dialog__content {
   padding: 0;
   color: #333;
+}
+
+/* helpers */
+
+.center {
+  text-align: center;
+}
+
+.shadow {
+  box-shadow: rgb(0 0 0 / 50%) 1px 1px 10px;
+}
+
+.pt-32 {
+  padding-top: 32px;
 }
