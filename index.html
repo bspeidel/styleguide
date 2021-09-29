@@ -55,7 +55,7 @@
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
         </div>
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <a onclick="topFunction()" href="#overview" class="mdl-layout__tab is-active">Allgemein</a>
+          <a onclick="topFunction()" href="#overview" class="mdl-layout__tab is-active">UX Design</a>
           <a onclick="topFunction()" href="#templates" class="mdl-layout__tab">UI Design</a>
           <a onclick="topFunction()" href="#showcase" class="mdl-layout__tab">Showcase</a>
         </div>
@@ -146,7 +146,6 @@
               </div>
             </div>
           </section>
-
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--primary-light mdl-color-text--white">
               <img class="mdl-card__img" src="assets/images/undraw_font_kwpk.svg" width="200" alt="palette">
@@ -155,7 +154,7 @@
               <div class="mdl-card__supporting-text mdl-card__body">
                 <h3>Typography</h3>
                 <strong>IBM Plex Sans</strong><br> 
-                Die Schrift ist unter folgender URL verfügbar: <a href="https://fonts.google.com/specimen/IBM+Plex+Sans">Link zu googlefonts</a>
+                Die Schrift ist unter folgender URL verfügbar: <a href="https://fonts.google.com/specimen/IBM+Plex+Sans" target="_blank">Link zu googlefonts <i class="fas fa-external-link"></i></a>
               </div>
               <div id="fonts" class="mdl-card__supporting-text" style="display: none;">
                 <img class="mdl-card__img" src="assets/images/IBM Plex.svg" alt="typo">
@@ -166,12 +165,32 @@
           </section>
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--primary-light mdl-color-text--white">
+              <img class="mdl-card__img" src="assets/images/undraw_button_style_70y7.svg" width="200" alt="palette">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text mdl-card__body">
+                <h3>UI Komponenten</h3>
+                Die Komponenten sind in zwei Ebenen unterteilt:
+                <ol>
+                  <li>Die oberste Ebene umfaßt die Grundelemente. Beispiele: Buttons, Eingabefelder, Tabs.</li>
+                  <li>Die unterste Ebene ist anwendungsspezifisch und enthält die Komponenten mit einer Business-Logik. Beispiele: Vergleich Tabelle, Tarif Bewertung, Produktauswahl.</li>
+                </ol>
+              </div>
+              <div id="components" class="mdl-card__supporting-text" style="display: none; text-align: center;">
+                <img class="mdl-card__img" src="assets/images/components.png" alt="components" height="520" style="width: 80%;">
+              </div>
+              <div class="mdl-card__actions">
+                <a href="#" onclick="toggleSection('components')" class="mdl-button">mehr erfahren</a>
+              </div>
+          </section>
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--primary-light mdl-color-text--white">
               <img class="mdl-card__img" src="assets/images/undraw_design_notes_8dmv.svg" width="200" alt="palette">
             </header>
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text mdl-card__body">
-                <h3>Layout</h3>
-                Unsere Tools sind vom Grundaufbau alle gleich. Damit wird erreicht, dass ein Kunde der ein Smit-Tool kennt sich schnell in einem neuem zurecht findet. Das Layout besteht aus einem Header, Seitenmenü und Content-Bereich.
+                <h3>Templates</h3>
+                Verschiedene Seitentypen, die sich aus Komponenten zusammensetzen. Ein Basis Template besteht aus einem Header, Seitenmenü und Content-Bereich.
               </div>
               <div id="layout" class="mdl-card__supporting-text" style="display: none;">
                 <img class="mdl-card__img" src="assets/images/layout.svg" alt="typo" height="520">
@@ -182,7 +201,7 @@
           </section>
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--primary-light mdl-color-text--white">
-              <img class="mdl-card__img" src="assets/images/undraw_design_data.svg" width="200" alt="whitelabeling">
+              <img class="mdl-card__img" src="assets/images/undraw_add_color_19gv.svg" width="200" alt="whitelabeling">
             </header>
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text mdl-card__body">
@@ -193,7 +212,7 @@
                   <li>Favicon</li>
                   <li>Primär Farbe</li>
                   <li>Akzent Farbe</li>
-                  <li>Header Bild</li>
+                  <li>Seitenmenü Bild</li>
                 </ul>
               </div>
               <div id="whitelabeling" class="mdl-card__supporting-text" style="display: none;">
