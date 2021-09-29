@@ -62,6 +62,7 @@ body {
 .mdl-smit main > .mdl-layout__tab-panel {
   padding: 8px;
   padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .mdl-smit .mdl-card {
@@ -176,10 +177,6 @@ body {
   max-width: 992px;
 }
 
-.mdl-smit #features section.section--center {
-  max-width: 620px;
-}
-
 .mdl-smit section > header {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -286,15 +283,6 @@ body {
   background-color: white;
 }
 
-.mdl-smit #features section {
-  margin-bottom: 72px;
-}
-
-.mdl-smit #features h4,
-#features h5 {
-  margin-bottom: 16px;
-}
-
 .mdl-smit .toc {
   border-left: 4px solid #007fa3;
   margin: 24px;
@@ -378,6 +366,15 @@ body {
 .mdl-dialog__content {
   padding: 0;
   color: #333;
+}
+
+.mdl-dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 4px;
 }
 
 /* helpers */
