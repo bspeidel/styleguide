@@ -377,6 +377,11 @@ body {
   margin-right: 4px;
 }
 
+.mdl-data-table {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
 /* helpers */
 
 .center {
