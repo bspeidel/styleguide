@@ -98,12 +98,13 @@ body {
 
 .mdl-card__supporting-img {
   text-align: center;
+  margin: 8px;
 }
 
 .mdl-smit .mdl-card__process {
-  width: 94%;
+  width: auto;
   height: auto;
-  padding: 8px;
+  max-width: 100%;
 }
 
 .mdl-smit .mdl-card__showcase {
