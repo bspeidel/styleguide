@@ -4348,7 +4348,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
   overflow: hidden;
 }
 @media screen and (max-width: 1024px) {
