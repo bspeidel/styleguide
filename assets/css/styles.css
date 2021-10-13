@@ -388,6 +388,15 @@ body {
   margin-bottom: 32px;
 }
 
+.mdl-socialmedia {
+  font-size: 21px;
+}
+
+.mdl-mini-right-section {
+  display: inline-block;
+  order: 1;
+}
+
 /* helpers */
 
 .center {

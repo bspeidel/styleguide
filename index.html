@@ -491,21 +491,35 @@
       <footer class="mdl-mini-footer" aria-label="Footer">
         <div class="mdl-mini-footer__left-section">
           <div class="mdl-logo">
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
+            <span id="year"></span>
             SMART INSURTECH AG
           </div>
-          <!-- <ul class="mdl-mini-footer__link-list">
-            <li></li>
-            <li></li>
-          </ul> -->
+        </div>
+        <div class="mdl-mini-right-section">
+          <ul class="mdl-mini-footer__link-list mdl-socialmedia">
+            <li>
+              <a title="linkedin" href="https://www.linkedin.com/company/smart-insurtech" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a title="facebook" href="https://www.facebook.com/SmartInsurTechAG" target="_blank" rel="noopener"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a title="youtube" href="https://www.youtube.com/c/SmartInsurTechAG" target="_blank" rel="noopener"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a title="twitter" href="https://twitter.com/SmartInsurTech" target="_blank" rel="noopener"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a title="xing" href="https://www.xing.com/companies/smartinsurtechag" target="_blank" rel="noopener"><i class="fab fa-xing" aria-hidden="true"></i></a>
+            </li>
+          </ul>
         </div>
       </footer>
     </div>
     <script src="assets/js/material.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
+      document.getElementById('year').innerHTML = new Date().getFullYear();
       const container = document.getElementsByClassName('mdl-layout__content');
       function topFunction() {
         container[0].scrollTo({
