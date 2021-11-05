@@ -397,6 +397,22 @@ body {
   order: 1;
 }
 
+.mdl-list {
+  margin: 0px;
+}
+
+.mdl-list__item {
+  padding: 0px;
+}
+
+.mdl-list__item-icon {
+  margin-right: 16px !important;
+}
+
+.mdl-list__item-primary-content {
+  font-size: 14px;
+}
+
 /* helpers */
 
 .center {
