@@ -427,6 +427,12 @@ body {
   padding-top: 32px;
 }
 
+.frame {
+  margin-bottom: 32px;
+  border-radius: 12px;
+  border: 2px solid #287fa3;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 479px) {
